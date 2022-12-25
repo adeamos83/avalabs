@@ -11,15 +11,15 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		28E658C47C281178B1F44062 /* libPods-avaLabs-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6FB532A6CBD57386F0417BF /* libPods-avaLabs-tvOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D470E3FDBDDEC587B62C168 /* libPods-avaLabs-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC06CDEAD78E6035EC01BA4 /* libPods-avaLabs-tvOSTests.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* avaLabsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* avaLabsTests.m */; };
-		37C8B3D8D40283A65AE4B6D0 /* libPods-avaLabs-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B331DF92A6B477465720D17 /* libPods-avaLabs-tvOS.a */; };
-		8191444B4A72EF696A6AC82D /* libPods-avaLabs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CC9CA4F4054F4C1C3912D6 /* libPods-avaLabs.a */; };
+		6282330D6193CAAE8CC6D7F3 /* libPods-avaLabs-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C22FEAD6F7C4DF30B95CF8E /* libPods-avaLabs-tvOS.a */; };
+		75D6CA4B8894B2501298381A /* libPods-avaLabs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 757DFDA1C1AE7A683E921397 /* libPods-avaLabs.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		97179B9F317033296F4B284E /* libPods-avaLabs-avaLabsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEF18CB865ED7CAE822230BE /* libPods-avaLabs-avaLabsTests.a */; };
+		F1681E25F00F680008541E2B /* libPods-avaLabs-avaLabsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AAC24CF1B7582364E54BFD /* libPods-avaLabs-avaLabsTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,29 +44,29 @@
 		00E356EE1AD99517003FC87E /* avaLabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = avaLabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* avaLabsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = avaLabsTests.m; sourceTree = "<group>"; };
+		0E159FDBA8B109C374E8F39A /* Pods-avaLabs-avaLabsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avaLabs-avaLabsTests.debug.xcconfig"; path = "Target Support Files/Pods-avaLabs-avaLabsTests/Pods-avaLabs-avaLabsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F0E789C897EED5C967989E8 /* Pods-avaLabs-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avaLabs-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-avaLabs-tvOSTests/Pods-avaLabs-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* avaLabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = avaLabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = avaLabs/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = avaLabs/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = avaLabs/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = avaLabs/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = avaLabs/main.m; sourceTree = "<group>"; };
-		2A2F05506D05BAE4876483D6 /* Pods-avaLabs-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avaLabs-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-avaLabs-tvOSTests/Pods-avaLabs-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		1505832B06317AF19384CD05 /* Pods-avaLabs-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avaLabs-tvOS.release.xcconfig"; path = "Target Support Files/Pods-avaLabs-tvOS/Pods-avaLabs-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		2C22FEAD6F7C4DF30B95CF8E /* libPods-avaLabs-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-avaLabs-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* avaLabs-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "avaLabs-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* avaLabs-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "avaLabs-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		33CC9CA4F4054F4C1C3912D6 /* libPods-avaLabs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-avaLabs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DA08A8E6740E1C54A41FCFF /* Pods-avaLabs-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avaLabs-tvOS.release.xcconfig"; path = "Target Support Files/Pods-avaLabs-tvOS/Pods-avaLabs-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		5B331DF92A6B477465720D17 /* libPods-avaLabs-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-avaLabs-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DB0EDE8528A4785AD537ABD /* Pods-avaLabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avaLabs.debug.xcconfig"; path = "Target Support Files/Pods-avaLabs/Pods-avaLabs.debug.xcconfig"; sourceTree = "<group>"; };
-		79A88CCC60052E1FCFB1FA57 /* Pods-avaLabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avaLabs.release.xcconfig"; path = "Target Support Files/Pods-avaLabs/Pods-avaLabs.release.xcconfig"; sourceTree = "<group>"; };
-		8118025B3293D882711EA2AB /* Pods-avaLabs-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avaLabs-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-avaLabs-tvOSTests/Pods-avaLabs-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B23E75D58BAC1636CF5282C /* Pods-avaLabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avaLabs.release.xcconfig"; path = "Target Support Files/Pods-avaLabs/Pods-avaLabs.release.xcconfig"; sourceTree = "<group>"; };
+		65AAC24CF1B7582364E54BFD /* libPods-avaLabs-avaLabsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-avaLabs-avaLabsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		757DFDA1C1AE7A683E921397 /* libPods-avaLabs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-avaLabs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CCBA6248E7A083071F172E8 /* Pods-avaLabs-avaLabsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avaLabs-avaLabsTests.release.xcconfig"; path = "Target Support Files/Pods-avaLabs-avaLabsTests/Pods-avaLabs-avaLabsTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = avaLabs/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84D73A2649DA70522DAD9E93 /* Pods-avaLabs-avaLabsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avaLabs-avaLabsTests.release.xcconfig"; path = "Target Support Files/Pods-avaLabs-avaLabsTests/Pods-avaLabs-avaLabsTests.release.xcconfig"; sourceTree = "<group>"; };
-		95E52A1FA12084CEBEB08C13 /* Pods-avaLabs-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avaLabs-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-avaLabs-tvOS/Pods-avaLabs-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		DE808D2B7B10598A4910A2C7 /* Pods-avaLabs-avaLabsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avaLabs-avaLabsTests.debug.xcconfig"; path = "Target Support Files/Pods-avaLabs-avaLabsTests/Pods-avaLabs-avaLabsTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E6FB532A6CBD57386F0417BF /* libPods-avaLabs-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-avaLabs-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90364056921164CE2F7FCDE0 /* Pods-avaLabs-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avaLabs-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-avaLabs-tvOS/Pods-avaLabs-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9AC06CDEAD78E6035EC01BA4 /* libPods-avaLabs-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-avaLabs-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AF903D9FF256256276BCEDF /* Pods-avaLabs-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avaLabs-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-avaLabs-tvOSTests/Pods-avaLabs-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B64F44039683DA8E8B526B42 /* Pods-avaLabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-avaLabs.debug.xcconfig"; path = "Target Support Files/Pods-avaLabs/Pods-avaLabs.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EEF18CB865ED7CAE822230BE /* libPods-avaLabs-avaLabsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-avaLabs-avaLabsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97179B9F317033296F4B284E /* libPods-avaLabs-avaLabsTests.a in Frameworks */,
+				F1681E25F00F680008541E2B /* libPods-avaLabs-avaLabsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8191444B4A72EF696A6AC82D /* libPods-avaLabs.a in Frameworks */,
+				75D6CA4B8894B2501298381A /* libPods-avaLabs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37C8B3D8D40283A65AE4B6D0 /* libPods-avaLabs-tvOS.a in Frameworks */,
+				6282330D6193CAAE8CC6D7F3 /* libPods-avaLabs-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28E658C47C281178B1F44062 /* libPods-avaLabs-tvOSTests.a in Frameworks */,
+				2D470E3FDBDDEC587B62C168 /* libPods-avaLabs-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				33CC9CA4F4054F4C1C3912D6 /* libPods-avaLabs.a */,
-				EEF18CB865ED7CAE822230BE /* libPods-avaLabs-avaLabsTests.a */,
-				5B331DF92A6B477465720D17 /* libPods-avaLabs-tvOS.a */,
-				E6FB532A6CBD57386F0417BF /* libPods-avaLabs-tvOSTests.a */,
+				757DFDA1C1AE7A683E921397 /* libPods-avaLabs.a */,
+				65AAC24CF1B7582364E54BFD /* libPods-avaLabs-avaLabsTests.a */,
+				2C22FEAD6F7C4DF30B95CF8E /* libPods-avaLabs-tvOS.a */,
+				9AC06CDEAD78E6035EC01BA4 /* libPods-avaLabs-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -185,14 +185,14 @@
 		90EE976BDA6930B7DB6D8192 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6DB0EDE8528A4785AD537ABD /* Pods-avaLabs.debug.xcconfig */,
-				79A88CCC60052E1FCFB1FA57 /* Pods-avaLabs.release.xcconfig */,
-				DE808D2B7B10598A4910A2C7 /* Pods-avaLabs-avaLabsTests.debug.xcconfig */,
-				84D73A2649DA70522DAD9E93 /* Pods-avaLabs-avaLabsTests.release.xcconfig */,
-				95E52A1FA12084CEBEB08C13 /* Pods-avaLabs-tvOS.debug.xcconfig */,
-				3DA08A8E6740E1C54A41FCFF /* Pods-avaLabs-tvOS.release.xcconfig */,
-				8118025B3293D882711EA2AB /* Pods-avaLabs-tvOSTests.debug.xcconfig */,
-				2A2F05506D05BAE4876483D6 /* Pods-avaLabs-tvOSTests.release.xcconfig */,
+				B64F44039683DA8E8B526B42 /* Pods-avaLabs.debug.xcconfig */,
+				3B23E75D58BAC1636CF5282C /* Pods-avaLabs.release.xcconfig */,
+				0E159FDBA8B109C374E8F39A /* Pods-avaLabs-avaLabsTests.debug.xcconfig */,
+				7CCBA6248E7A083071F172E8 /* Pods-avaLabs-avaLabsTests.release.xcconfig */,
+				90364056921164CE2F7FCDE0 /* Pods-avaLabs-tvOS.debug.xcconfig */,
+				1505832B06317AF19384CD05 /* Pods-avaLabs-tvOS.release.xcconfig */,
+				9AF903D9FF256256276BCEDF /* Pods-avaLabs-tvOSTests.debug.xcconfig */,
+				0F0E789C897EED5C967989E8 /* Pods-avaLabs-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -204,11 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "avaLabsTests" */;
 			buildPhases = (
-				49818F959061B5747FE022B8 /* [CP] Check Pods Manifest.lock */,
+				162189E74020D4D1496B710B /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				294F0531194125A1564CAAC5 /* [CP] Copy Pods Resources */,
+				ABF6E1EE486873C5EAE11D26 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,13 +224,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "avaLabs" */;
 			buildPhases = (
-				EC6C6090E200BBB30ABE562E /* [CP] Check Pods Manifest.lock */,
+				463ED31748C2A34494D738DE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				267485AA09E54FD4F18AD9C7 /* [CP] Copy Pods Resources */,
+				9B102491EF248CE2AD68533F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,7 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "avaLabs-tvOS" */;
 			buildPhases = (
-				6230E19AC1595820A435B8C8 /* [CP] Check Pods Manifest.lock */,
+				69DD27F79BCC23096C638373 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -265,7 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "avaLabs-tvOSTests" */;
 			buildPhases = (
-				A543131E83777AB13F8C43AA /* [CP] Check Pods Manifest.lock */,
+				96F19EEA76A773AB8B2662A3 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -376,57 +376,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		267485AA09E54FD4F18AD9C7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-avaLabs/Pods-avaLabs-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-avaLabs/Pods-avaLabs-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		294F0531194125A1564CAAC5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-avaLabs-avaLabsTests/Pods-avaLabs-avaLabsTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-avaLabs-avaLabsTests/Pods-avaLabs-avaLabsTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		49818F959061B5747FE022B8 /* [CP] Check Pods Manifest.lock */ = {
+		162189E74020D4D1496B710B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -448,7 +398,43 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6230E19AC1595820A435B8C8 /* [CP] Check Pods Manifest.lock */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		463ED31748C2A34494D738DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-avaLabs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69DD27F79BCC23096C638373 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -470,7 +456,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A543131E83777AB13F8C43AA /* [CP] Check Pods Manifest.lock */ = {
+		96F19EEA76A773AB8B2662A3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -492,26 +478,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EC6C6090E200BBB30ABE562E /* [CP] Check Pods Manifest.lock */ = {
+		9B102491EF248CE2AD68533F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-avaLabs/Pods-avaLabs-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-avaLabs-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-avaLabs/Pods-avaLabs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABF6E1EE486873C5EAE11D26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-avaLabs-avaLabsTests/Pods-avaLabs-avaLabsTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-avaLabs-avaLabsTests/Pods-avaLabs-avaLabsTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -607,7 +607,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE808D2B7B10598A4910A2C7 /* Pods-avaLabs-avaLabsTests.debug.xcconfig */;
+			baseConfigurationReference = 0E159FDBA8B109C374E8F39A /* Pods-avaLabs-avaLabsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -630,7 +630,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84D73A2649DA70522DAD9E93 /* Pods-avaLabs-avaLabsTests.release.xcconfig */;
+			baseConfigurationReference = 7CCBA6248E7A083071F172E8 /* Pods-avaLabs-avaLabsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -650,7 +650,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DB0EDE8528A4785AD537ABD /* Pods-avaLabs.debug.xcconfig */;
+			baseConfigurationReference = B64F44039683DA8E8B526B42 /* Pods-avaLabs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -674,7 +674,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79A88CCC60052E1FCFB1FA57 /* Pods-avaLabs.release.xcconfig */;
+			baseConfigurationReference = 3B23E75D58BAC1636CF5282C /* Pods-avaLabs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -696,7 +696,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95E52A1FA12084CEBEB08C13 /* Pods-avaLabs-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 90364056921164CE2F7FCDE0 /* Pods-avaLabs-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -724,7 +724,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DA08A8E6740E1C54A41FCFF /* Pods-avaLabs-tvOS.release.xcconfig */;
+			baseConfigurationReference = 1505832B06317AF19384CD05 /* Pods-avaLabs-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -752,7 +752,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8118025B3293D882711EA2AB /* Pods-avaLabs-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 9AF903D9FF256256276BCEDF /* Pods-avaLabs-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -779,7 +779,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A2F05506D05BAE4876483D6 /* Pods-avaLabs-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 0F0E789C897EED5C967989E8 /* Pods-avaLabs-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
