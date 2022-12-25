@@ -206,35 +206,6 @@ PODS:
     - React-jsi (= 0.65.3)
     - React-perflogger (= 0.65.3)
   - React-jsinspector (0.65.3)
-  - react-native-skia (0.1.166):
-    - React
-    - React-callinvoker
-    - React-Core
-    - react-native-skia/Api (= 0.1.166)
-    - react-native-skia/Jsi (= 0.1.166)
-    - react-native-skia/RNSkia (= 0.1.166)
-    - react-native-skia/SkiaHeaders (= 0.1.166)
-    - react-native-skia/Utils (= 0.1.166)
-  - react-native-skia/Api (0.1.166):
-    - React
-    - React-callinvoker
-    - React-Core
-  - react-native-skia/Jsi (0.1.166):
-    - React
-    - React-callinvoker
-    - React-Core
-  - react-native-skia/RNSkia (0.1.166):
-    - React
-    - React-callinvoker
-    - React-Core
-  - react-native-skia/SkiaHeaders (0.1.166):
-    - React
-    - React-callinvoker
-    - React-Core
-  - react-native-skia/Utils (0.1.166):
-    - React
-    - React-callinvoker
-    - React-Core
   - React-perflogger (0.65.3)
   - React-RCTActionSheet (0.65.3):
     - React-Core/RCTActionSheetHeaders (= 0.65.3)
@@ -321,7 +292,6 @@ DEPENDENCIES:
   - React-jsi (from `../node_modules/react-native/ReactCommon/jsi`)
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
-  - "react-native-skia (from `../node_modules/@shopify/react-native-skia`)"
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
   - React-RCTAnimation (from `../node_modules/react-native/Libraries/NativeAnimation`)
@@ -373,8 +343,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsiexecutor"
   React-jsinspector:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
-  react-native-skia:
-    :path: "../node_modules/@shopify/react-native-skia"
   React-perflogger:
     :path: "../node_modules/react-native/ReactCommon/reactperflogger"
   React-RCTActionSheet:
@@ -422,7 +390,6 @@ SPEC CHECKSUMS:
   React-jsi: 0ab20c9070bc28cd99a200e826ce7cf46e8f5b26
   React-jsiexecutor: d7540b187f30f45281ece995f19dde143e3afff3
   React-jsinspector: 94bbad998be4efbdac7d6d152677bdd134c1c980
-  react-native-skia: 6362ec5306b5d3d69b8babb7a6439589e1a00ab8
   React-perflogger: f8205b59ccf68dbe4184e71ac7b4db55ea0c8965
   React-RCTActionSheet: 67b50ddfccbc123dcc7574475e4fdc911cc601d7
   React-RCTAnimation: 3b998b2da94bc3f74c8d8e98b3181e20678a0ca7
