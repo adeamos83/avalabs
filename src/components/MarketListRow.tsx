@@ -39,7 +39,7 @@ export const MarketListRow: React.FC<MarketListRowProps> = ({data}) => {
             {`$${data.current_price.toLocaleString()}`}
           </Text>
           <Text style={styles.rightColSubtitleText}>
-            {`${data.price_change_percentage_24h.toFixed(2)}%`}
+            {`${data.price_change_percentage_24h?.toFixed(2)}%`}
           </Text>
         </View>
       </View>

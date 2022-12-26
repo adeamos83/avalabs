@@ -19,7 +19,7 @@ export const MarketList = () => {
   const [marketData, setMarketData] = useState<DataProps[]>([]);
   const [loading, setLoading] = useState(false);
   const [page, setPage] = useState(1);
-  console.log('marketData', marketData);
+
   const getMarketCap = async () => {
     setLoading(true);
     try {
@@ -40,7 +40,7 @@ export const MarketList = () => {
     getMarketCap();
   }, []);
 
-  if (loading) {
+  if (loading && page === 1) {
     return (
       <View style={styles.spinnerContainer}>
         <ActivityIndicator size="large" color="#00ff00" />
@@ -68,8 +68,11 @@ export const MarketList = () => {
                 data={marketData}
                 renderItem={({item}) => <MarketListRow data={item} />}
                 onEndReached={getMarketCap}
-                onEndReachedThreshold={0.7}
+                onEndReachedThreshold={1.5}
               />
+            )}
+            {loading && page > 1 && (
+              <ActivityIndicator size="large" color="#00ff00" />
             )}
           </View>
         </View>
